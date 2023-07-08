@@ -121,6 +121,7 @@ class PhpPsInfo
      * @param string $password Password
      *
      */
+    /**
     public function __construct($login = self::DEFAULT_LOGIN, $password = self::DEFAULT_PASSWORD)
     {
         if (!empty($_SERVER['PS_INFO_LOGIN'])) {
@@ -134,7 +135,7 @@ class PhpPsInfo
         $this->login = !empty($login) ? $login : $this->login;
         $this->password = !empty($password) ? $password : $this->password;
     }
-
+    */
     /**
      * Check authentication if not in cli and have a login
      */
